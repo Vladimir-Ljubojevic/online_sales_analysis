@@ -11,6 +11,8 @@ manager.add_product(product1)
 manager.add_product(product2)
 manager.add_product(product3)
 
+manager.remove_product_by_name("Laptop")
+
 
 manager.display_all_products()
 
