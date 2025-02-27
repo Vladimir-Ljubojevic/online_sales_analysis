@@ -13,8 +13,6 @@ manager.add_product(product3)
 
 manager.remove_product_by_name("Laptop")
 
-
 manager.display_all_products()
-
 
 manager.total_inventory_value()
