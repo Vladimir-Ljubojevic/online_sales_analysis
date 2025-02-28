@@ -20,9 +20,18 @@ manager.add_product(product5)
 
 cart = Cart()
 
-
-manager.remove_product_by_name("Phone")
-
+cart.add_product_to_cart(product1)  
+cart.add_product_to_cart(product3)  
+cart.add_product_to_cart(product5)
+ 
 manager.display_all_products()
 
 manager.total_inventory_value()
+
+cart.display_cart()
+
+
+total = cart.calculate_total()
+print(f"Total amount to pay: ${total:.2f}")
+
+manager.remove_product_by_name("Phone")
