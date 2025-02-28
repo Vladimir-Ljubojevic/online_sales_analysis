@@ -3,9 +3,9 @@ from product import Product
 
 manager = ProductManager()
 
-product1 = Product("Laptop", 1000, 5)
-product2 = Product("Smartphone", 700, 10)
-product3 = Product("Headphones", 150, 15)
+product1 = Product("Monitor", 100, 50)
+product2 = Product("Phone", 70, 105)
+product3 = Product("Mouse", 120, 30)
 
 manager.add_product(product1)
 manager.add_product(product2)
@@ -13,6 +13,4 @@ manager.add_product(product3)
 
 manager.remove_product_by_name("Laptop")
 
-manager.display_all_products()
 
-manager.total_inventory_value()
